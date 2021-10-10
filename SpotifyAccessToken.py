@@ -2,7 +2,7 @@ import requests
 from dotenv import load_dotenv
 import os
 
-
+#get access token
 def get_access_token():
     '''Get Spotify access token'''
 
