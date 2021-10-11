@@ -5,17 +5,18 @@ from bs4 import BeautifulSoup # library to parse HTML documents
 import time
 
 # get track details
-def get_track_details(target_url, target_year):
+def scrape_tracks(target_url, target_year):
     response = requests.get(target_url + f"{target_year}")
     print(response.status_code)
 
     # parse data from the html into a beautifulsoup object
     soup = BeautifulSoup(response.text, 'html.parser')
-    table = soup.find('table', {'class': "wikitable"})
+    indiatable = soup.find('table', {'class': "wikitable"})
 
-    df = pd.read_html(str(table))
+    df = pd.read_html(str(indiatable))
     # convert list to dataframe
     df = pd.DataFrame(df[0])
+    df['year'] = target_year
     return df
 
 def get_and_combine_track_details(target_url, min_year, max_year):
@@ -32,7 +33,7 @@ def get_and_combine_track_details(target_url, min_year, max_year):
     """
     for year in range(min_year, max_year + 1):
         # get the response in the form of html
-        os.system('cls')
+        # os.system('cls')
         if year == min_year:
             complete_track_details = get_track_details(target_url, year)
         else:
@@ -43,4 +44,6 @@ def get_and_combine_track_details(target_url, min_year, max_year):
     return complete_track_details
 
 url = "https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_"
-get_and_combine_track_details(url,2018, 2020)
+track_details = get_and_combine_track_details(url,2019, 2020)
+print(track_details)
+track_details.shape
