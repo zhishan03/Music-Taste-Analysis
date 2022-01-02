@@ -5,3 +5,5 @@ Oct 10: successfully extracted song audio features using Spotipy (python package
 query can't find collab songs' ids (due to the artist name being in the format of 'artist 1 featuring artist 2')
 
 Oct 11: used re.sub function in Python and solved the problem; generated audio features for songs from 2008-2020(yay!)
+
+https://share.streamlit.io/zhishan03/music-taste-analysis/main.py
