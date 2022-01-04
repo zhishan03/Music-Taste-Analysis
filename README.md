@@ -48,7 +48,7 @@ Using BeautifulSoup, I scraped [Billboard Hot 100 on Wikipedia](https://en.wikip
 
 
 ### Clusters:
-##### Happy Dance
+#### Happy Dance
 This cluster comprises low-acousticness songs with high danceability and energy, as well as, this is the group with highest level of musical positiveness. 
 
 Ex: 
@@ -56,7 +56,7 @@ Ex:
 * "Adore You" by Harry Styles
 * "All I Want for Christmas Is You" by Mariah Carey
 ______________
-##### Neutral Dance
+#### Neutral Dance
 This cluster is the highest in danceability but it contains songs with higher acousticness and a little lower energy 
 
 Ex:
@@ -64,7 +64,7 @@ Ex:
 * "Dynamite" by BTS
 * "Señorita" by Shawn Mendes and Camila Cabello
 ______________
-##### Depressed Dance
+#### Depressed Dance
 Despite here the danceability and energy is moderated, this has the lowest level of acousticness and musical positivity. 
 
 Ex: 
@@ -72,7 +72,7 @@ Ex:
 * "Circles"	by Post Malone
 * "Thank U, Next" by Ariana Grande
 ______________
-##### Acoustic Melody
+#### Acoustic Melody
 This cluster contains the songs with highest level of acousticness in average, with a low level of energy and danceability. 
 
 Ex: 
