@@ -44,7 +44,7 @@
 
 Did people's music taste change over the last 4 decades, if so, in what ways? Curious as to what the answers are, I started brainstorming ideas and began working on this project. 
 
-Using BeautifulSoup, I scraped [Billboard Hot 100 on Wikipedia](https://en.wikipedia.org/wiki/Billboard_Hot_100) from 1980 up to 2020 and compiled the data into excel. I then did data exploration and K-means clustering to divide the songs into 4 categories. All of these was then productionized to an interactive Streamlit app!
+Using BeautifulSoup, I scraped [Billboard Hot 100 on Wikipedia](https://en.wikipedia.org/wiki/Billboard_Hot_100) from 1980 up to 2020. After compiling the data into excel, I was then able to extract these songs' audio features (Danceability, Acousticness, Duration, Tempo...) from Spotify API. Following that, I did data exploration and K-means clustering to divide the songs into 4 categories. All of these was then productionized to an interactive Streamlit app!
 
 <br />
 
