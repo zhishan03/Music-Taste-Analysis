@@ -42,7 +42,43 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Did people's music taste change over the last 4 decades, if so, in what ways? Curious as to what the answers are, I started brainstorming ideas and began working on this project. Using BeautifulSoup, I scraped [Billboard Hot 100 on Wikipedia](https://en.wikipedia.org/wiki/Billboard_Hot_100) from 1980 up to 2020 and compiled the data into excel. I then did data exploration and K-means clustering to divide the songs into 4 categories - 'Happy Dance', 'Depressed Dance', 'Neutral Dance', 'Acoustic Melody'. All of these was then productionized to an interactive Streamlit app!
+Did people's music taste change over the last 4 decades, if so, in what ways? Curious as to what the answers are, I started brainstorming ideas and began working on this project. 
+
+Using BeautifulSoup, I scraped [Billboard Hot 100 on Wikipedia](https://en.wikipedia.org/wiki/Billboard_Hot_100) from 1980 up to 2020 and compiled the data into excel. I then did data exploration and K-means clustering to divide the songs into 4 categories. All of these was then productionized to an interactive Streamlit app!
+
+Categories
+## Happy Dance
+This cluster comprises low-acousticness songs with high danceability and energy, as well as, this is the group with highest level of musical positiveness. 
+
+Ex: 
+* "Hey Look Ma, I Made It" by Panic!at the Disco
+* "Adore You" by Harry Styles
+* "All I Want for Christmas Is You" by Mariah Carey
+
+# Neutral Dance
+This cluster is the highest in danceability but it contains songs with higher acousticness and a little lower energy 
+
+Ex:
+* "Dance Monkey" by Tones and I
+* "Dynamite" by BTS
+* "Señorita" by Shawn Mendes and Camila Cabello
+
+# Depressed Dance
+Despite here the danceability and energy is moderated, this has the lowest level of acousticness and musical positivity. 
+
+Ex: 
+* "Blinding Lights" by The Weeknd 
+* "Circles"	by Post Malone
+* "Thank U, Next" by Ariana Grande
+
+# Acoustic Melody
+This cluster contains the songs with highest level of acousticness in average, with a low level of energy and danceability. 
+
+Ex: 
+* "Night Changes" by One Direction
+* "Let It Go" by James Bay
+* "Lost Boy" by Ruth B
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -65,7 +101,11 @@ Did people's music taste change over the last 4 decades, if so, in what ways? Cu
 <!-- ROADMAP -->
 ## Result
 
-The evident result is people's loss of interest in acoustic songs. It is shown that ~22% of the Billboard Hot 100 number-one singles of 1980 are acoustic songs, whereas that statistics has reduced significantly down to ~10% in 2020. The only type of music that is on an upward climb is 'Neutral Dance', or songs that are upbeat and contains a hint of acousticness but don't convey a strong positive or negative emotion (Ex: "Dynamite" by BTS, "Señorita" by Shawn Mendes and Camila Cabello). It went up from ~25% in 1980 to ~44% in 2020.
+The evident result is people's loss of interest in acoustic songs. It is shown that ~22% of the Billboard Hot 100 number-one singles of 1980 are acoustic songs, whereas that statistics has reduced significantly down to ~10% in 2020. 
+
+The only type of music that is on an upward climb is 'Neutral Dance', or songs that are upbeat and contains a hint of acousticness but don't convey a strong positive or negative emotion (Ex: "Dynamite" by BTS, "Señorita" by Shawn Mendes and Camila Cabello). It went up from ~25% in 1980 to ~44% in 2020.
+
+People definitely favors upbeat and slightly acoustic songs over any other kind!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
