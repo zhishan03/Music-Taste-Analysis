@@ -63,7 +63,7 @@ Ex:
 * "Dance Monkey" by Tones and I
 * "Dynamite" by BTS
 * "Señorita" by Shawn Mendes and Camila Cabello
-
+______________
 ##### Depressed Dance
 Despite here the danceability and energy is moderated, this has the lowest level of acousticness and musical positivity. 
 
@@ -71,7 +71,7 @@ Ex:
 * "Blinding Lights" by The Weeknd 
 * "Circles"	by Post Malone
 * "Thank U, Next" by Ariana Grande
-
+______________
 ##### Acoustic Melody
 This cluster contains the songs with highest level of acousticness in average, with a low level of energy and danceability. 
 
