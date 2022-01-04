@@ -33,8 +33,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#roadmap">Result</a></li>
   </ol>
 </details>
 
@@ -52,7 +51,7 @@ Did people's music taste change over the last 4 decades, if so, in what ways? Cu
 ### Built With
 
 * BeatifulSoup
-* Sklearn]
+* Sklearn
 * Seaborn
 * Matplotlib
 * Pandas
@@ -64,14 +63,9 @@ Did people's music taste change over the last 4 decades, if so, in what ways? Cu
 
 
 <!-- ROADMAP -->
-## Roadmap
+## Result
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+The evident result is people's loss of interest in acoustic songs. It is shown that ~22% of the Billboard Hot 100 number-one singles of 1980 are acoustic songs, whereas that statistics has reduced significantly down to ~10% in 2020. The only type of music that is on an upward climb is 'Neutral Dance', or songs that are upbeat and contains a hint of acousticness but don't convey a strong positive or negative emotion (Ex: "Dynamite" by BTS, "Señorita" by Shawn Mendes and Camila Cabello). It went up from ~25% in 1980 to ~44% in 2020.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
