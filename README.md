@@ -47,7 +47,7 @@ Did people's music taste change over the last 4 decades, if so, in what ways? Cu
 Using BeautifulSoup, I scraped [Billboard Hot 100 on Wikipedia](https://en.wikipedia.org/wiki/Billboard_Hot_100) from 1980 up to 2020 and compiled the data into excel. I then did data exploration and K-means clustering to divide the songs into 4 categories. All of these was then productionized to an interactive Streamlit app!
 
 
-#### Categories:
+### Clusters:
 ##### Happy Dance
 This cluster comprises low-acousticness songs with high danceability and energy, as well as, this is the group with highest level of musical positiveness. 
 
